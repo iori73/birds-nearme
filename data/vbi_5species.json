@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-01T12:28:49.164Z",
+  "source": "Xeno-canto API v3 + ffmpeg → FFT/HNR/Centroid/Flatness (audioAnalysis.js mirror)",
+  "formula": "VBI = (0.45·nHNR + 0.25·nCentroid + 0.30·nFlatness) * 10",
+  "species": {
+    "Cyanopica cyanus": {
+      "jp": "オナガ",
+      "recording_id": "971204",
+      "country": "China",
+      "length": "0:05",
+      "hnr": 5.6624556303872895,
+      "centroid": 4338.282696010744,
+      "flatness": 0.44133187307870353,
+      "nHnr": 0.522081854346243,
+      "nCentroid": 0.5914927342198346,
+      "nFlatness": 0,
+      "vbi": 3.82810018010768,
+      "voicedFrames": 41
+    },
+    "Corvus macrorhynchos": {
+      "jp": "カラス",
+      "recording_id": "1016632",
+      "country": "Japan",
+      "length": "0:07",
+      "hnr": 4.869128975739923,
+      "centroid": 2133.0287603568004,
+      "flatness": 0.2577217952384981,
+      "nHnr": 0.4956376325246641,
+      "nCentroid": 0.9184508356348445,
+      "nFlatness": 0.40650915646143393,
+      "vbi": 5.746023904832401,
+      "voicedFrames": 38
+    },
+    "Passer montanus": {
+      "jp": "スズメ",
+      "recording_id": "168775",
+      "country": "Japan",
+      "length": "0:13",
+      "hnr": 1.9157330892438529,
+      "centroid": 3603.9475918154917,
+      "flatness": 0.2681482544656242,
+      "nHnr": 0.3971911029747951,
+      "nCentroid": 0.7546783129298907,
+      "nFlatness": 0.37671927295535945,
+      "vbi": 4.804213564577383,
+      "voicedFrames": 68
+    },
+    "Columba livia": {
+      "jp": "ドバト",
+      "recording_id": "116226",
+      "country": "Poland",
+      "length": "0:05",
+      "hnr": 7.34212126541862,
+      "centroid": 851.5471997681802,
+      "flatness": 0.12098039223953279,
+      "nHnr": 0.5780707088472873,
+      "nCentroid": 0.6336771555040401,
+      "nFlatness": 0.7971988793156206,
+      "vbi": 6.5771077165197545,
+      "voicedFrames": 18
+    },
+    "Spodiopsar cineraceus": {
+      "jp": "ムクドリ",
+      "recording_id": "294788",
+      "country": "Japan",
+      "length": "0:14",
+      "hnr": 5.849411675831866,
+      "centroid": 1986.3769702769177,
+      "flatness": 0.16296035086317234,
+      "nHnr": 0.5283137225277289,
+      "nCentroid": 0.8858615489504261,
+      "nFlatness": 0.6772561403909361,
+      "vbi": 6.623834044923653,
+      "voicedFrames": 103
+    }
+  }
+}

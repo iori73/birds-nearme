@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "source": "brain_evolution_note.md",
+    "confidence_levels": {
+      "measured": "出典のある実測値（部位の機能定義、命名改訂の事実）",
+      "observed": "標準的な解剖学記述に依拠",
+      "estimate": "代表値・暫定値（脳重・ニューロン数・部位の発達度）"
+    },
+    "viewbox": { "w": 420, "h": 260, "note": "鳥類脳の側面図を簡略化したスキーマ座標。実解剖図ではない。" }
+  },
+  "parts": [
+    {
+      "id": "olfactory",
+      "en": "Olfactory bulb",
+      "jp": "嗅球",
+      "def_jp": "においを感じ取る感覚",
+      "function_jp": "化学受容（におい）。匂い情報の一次処理。",
+      "evolution_jp": "古層。多くの鳥で縮小したが、ハゲワシ・キーウィ等では発達。",
+      "color_token": "accent.warning",
+      "color_hex": "#C68A3C",
+      "pos": { "x": 70, "y": 180, "r": 18 },
+      "label_anchor": { "x": 30, "y": 200 },
+      "confidence": "measured"
+    },
+    {
+      "id": "pallium",
+      "en": "Pallium",
+      "jp": "外套（大脳皮質に相当）",
+      "def_jp": "思考や感覚を司る脳の外層",
+      "function_jp": "高次認知・学習・道具使用・社会行動。NCL（鳥の前頭前野相当）を含む。",
+      "evolution_jp": "2004 年命名改訂の主役。哺乳類皮質と独立に高度化。",
+      "color_token": "accent.culture",
+      "color_hex": "#6E4F6B",
+      "pos": { "x": 180, "y": 70, "r": 60 },
+      "label_anchor": { "x": 180, "y": 28 },
+      "confidence": "measured"
+    },
+    {
+      "id": "striatum",
+      "en": "Striatum",
+      "jp": "線条体",
+      "def_jp": "運動や報酬に関わる脳の部分",
+      "function_jp": "運動制御・強化学習・報酬。",
+      "evolution_jp": "旧説では「鳥脳のほぼ全部」と誤読された領域。Edinger 1908 系譜の象徴。",
+      "color_token": "bird.crow",
+      "color_hex": "#3A3A52",
+      "pos": { "x": 180, "y": 155, "r": 32 },
+      "label_anchor": { "x": 130, "y": 155 },
+      "confidence": "measured"
+    },
+    {
+      "id": "midbrain",
+      "en": "Midbrain (Optic tectum)",
+      "jp": "中脳・視蓋",
+      "def_jp": "視覚や聴覚の情報処理を行う脳の中部",
+      "function_jp": "視覚情報の主要処理。鳥は視蓋優位。",
+      "evolution_jp": "鳥類で相対的に巨大化。視覚特化の進化的痕跡。",
+      "color_token": "accent.movement",
+      "color_hex": "#9CB4C2",
+      "pos": { "x": 245, "y": 115, "r": 24 },
+      "label_anchor": { "x": 285, "y": 80 },
+      "confidence": "measured"
+    },
+    {
+      "id": "thalamus",
+      "en": "Thalamus",
+      "jp": "視床",
+      "def_jp": "感覚情報を大脳に伝える中継点",
+      "function_jp": "感覚信号の中継・選択。",
+      "evolution_jp": "哺乳類と相同。pallium への投射ルートが鳥独自。",
+      "color_token": "ink.mid",
+      "color_hex": "#4F4840",
+      "pos": { "x": 215, "y": 145, "r": 14 },
+      "label_anchor": { "x": 215, "y": 178 },
+      "confidence": "measured"
+    },
+    {
+      "id": "chiasm",
+      "en": "Optic chiasm",
+      "jp": "視交叉",
+      "def_jp": "視神経が交差する部分",
+      "function_jp": "視野の左右分配。",
+      "evolution_jp": "ほぼ完全交差。広視野・単眼戦略の証拠。",
+      "color_token": "accent.duration",
+      "color_hex": "#516C8A",
+      "pos": { "x": 150, "y": 210, "r": 11 },
+      "label_anchor": { "x": 100, "y": 232 },
+      "confidence": "measured"
+    },
+    {
+      "id": "hindbrain",
+      "en": "Hindbrain",
+      "jp": "後脳",
+      "def_jp": "運動やバランスを調整する脳の後部",
+      "function_jp": "呼吸・心拍・基本運動。",
+      "evolution_jp": "古層。系統間で保守的。",
+      "color_token": "paper.shadow",
+      "color_hex": "#E2D8C5",
+      "pos": { "x": 325, "y": 200, "r": 18 },
+      "label_anchor": { "x": 370, "y": 220 },
+      "confidence": "measured"
+    },
+    {
+      "id": "cerebellum",
+      "en": "Cerebellum",
+      "jp": "小脳",
+      "def_jp": "運動の調整やバランス維持を担当する脳の部分",
+      "function_jp": "運動学習・飛行制御・姿勢。",
+      "evolution_jp": "飛行に伴い相対的に拡大。葉間溝が深い。",
+      "color_token": "accent.life",
+      "color_hex": "#7C8F5B",
+      "pos": { "x": 325, "y": 120, "r": 30 },
+      "label_anchor": { "x": 380, "y": 110 },
+      "confidence": "measured"
+    }
+  ],
+  "evolution_timeline": [
+    {
+      "year_mya": 250,
+      "label_jp": "双弓類（爬虫類祖先）",
+      "label_en": "Diapsid ancestor",
+      "note_jp": "標準的な前脳。線条体優位、pallium は薄い。"
+    },
+    {
+      "year_mya": 150,
+      "label_jp": "獣脚類恐竜 → 始祖鳥",
+      "label_en": "Theropods → Archaeopteryx",
+      "note_jp": "飛翔のための小脳・視覚系の拡大が始まる。"
+    },
+    {
+      "year_mya": 66,
+      "label_jp": "K-Pg 大量絶滅",
+      "label_en": "K-Pg extinction",
+      "note_jp": "脳化指数の高い小型系統だけが生き残るボトルネック。",
+      "emphasis": true
+    },
+    {
+      "year_mya": 50,
+      "label_jp": "現生鳥類の放散",
+      "label_en": "Modern radiation",
+      "note_jp": "小さい脳に多くのニューロンを詰める高密度化。"
+    },
+    {
+      "year_mya": 0.0001,
+      "label_jp": "2004 命名改訂",
+      "label_en": "Avian Brain Nomenclature 2004",
+      "note_jp": "Jarvis et al. — 「線条体支配」誤読の終焉。pallium 認知系を正しく命名。",
+      "emphasis": true
+    }
+  ],
+  "species_brain": [
+    {
+      "name_jp": "カラス",
+      "name_en": "Large-billed Crow",
+      "scientific_name": "Corvus macrorhynchos",
+      "color": "#3A3A52",
+      "brain_g": 9.0,
+      "brain_g_range": [7.5, 10.5],
+      "neurons_M": 1200,
+      "neurons_M_range": [900, 1500],
+      "density_per_g_range": [120, 180],
+      "eq": 1.25,
+      "highlight_part": "pallium",
+      "story_jp": "NCL（鳥の前頭前野相当）が発達した代表的なカラス科。pallium のニューロン密度が霊長類と比較される研究もある（Olkowicz 2016 は近縁種）。"
+    },
+    {
+      "name_jp": "オナガ",
+      "name_en": "Azure-winged Magpie",
+      "scientific_name": "Cyanopica cyanus",
+      "color": "#7A95A8",
+      "brain_g": 1.8,
+      "brain_g_range": [1.5, 2.2],
+      "neurons_M": 280,
+      "neurons_M_range": [220, 340],
+      "density_per_g_range": [110, 170],
+      "eq": 1.00,
+      "highlight_part": "pallium",
+      "story_jp": "カラス科の小型種。協同繁殖が知られる。直接計測例は少なく、近縁種からの推定。"
+    },
+    {
+      "name_jp": "ムクドリ",
+      "name_en": "White-cheeked Starling",
+      "scientific_name": "Spodiopsar cineraceus",
+      "color": "#6B7C5E",
+      "brain_g": 1.5,
+      "brain_g_range": [1.3, 1.8],
+      "neurons_M": 234,
+      "neurons_M_range": [180, 280],
+      "density_per_g_range": [120, 180],
+      "eq": 0.80,
+      "highlight_part": "pallium",
+      "story_jp": "鳴禽類。HVC・Area X など音声学習回路を持つ。群行動が顕著。"
+    },
+    {
+      "name_jp": "ドバト",
+      "name_en": "Feral Pigeon",
+      "scientific_name": "Columba livia",
+      "color": "#8B8FA8",
+      "brain_g": 2.2,
+      "brain_g_range": [1.9, 2.5],
+      "neurons_M": 310,
+      "neurons_M_range": [270, 360],
+      "density_per_g_range": [130, 170],
+      "eq": 0.65,
+      "highlight_part": "midbrain",
+      "story_jp": "実験神経科学で広く研究される種（Olkowicz 2016 含む）。視覚と帰巣行動の研究蓄積が大きい。"
+    },
+    {
+      "name_jp": "スズメ",
+      "name_en": "Eurasian Tree Sparrow",
+      "scientific_name": "Passer montanus",
+      "color": "#C4956A",
+      "brain_g": 0.8,
+      "brain_g_range": [0.7, 0.95],
+      "neurons_M": 125,
+      "neurons_M_range": [100, 150],
+      "density_per_g_range": [130, 170],
+      "eq": 0.70,
+      "highlight_part": "pallium",
+      "story_jp": "小型鳴禽類。都市環境への行動的柔軟性が観察される。直接計測は限られ、近縁種からの推定。"
+    }
+  ],
+  "data_caveats": {
+    "ranges_jp": "brain_g_range, neurons_M_range, density_per_g_range は文献の代表値と種間変動から導いた推定範囲。直接計測が乏しい種ではより広く取っている。",
+    "deprecated_in_plate_jp": "highlight_part と eq は新しいプレート（BrainSpecimenPlate）では描画に使わない。highlight_part は『1 種 = 1 部位』というバイアス枠を生むため、eq は方法論的議論があるため（Healy & Rowe 2007）。data 互換のため値は残置。",
+    "behavior_profile_jp": "src/lib/brainGeometry.js の BEHAVIOR_PROFILES は定性的推定。score として比較できる量ではなく、aura 形状の差を出すための形態素として使う。"
+  },
+  "gap_core": {
+    "title_jp": "鳥の脳は退化していない、ただ別の道を行っただけだ",
+    "title_en": "Bird brains didn't regress — they took a different route",
+    "lede_jp": "20 世紀のあいだ、鳥脳は「線条体に支配された原始的な脳」と誤読されてきた。2004 年の命名改訂以降、私たちは知っている — 鳥は哺乳類とは独立に、外套 (pallium) を高度化させた認知システムを持っている。",
+    "primary_sources": [
+      "Jarvis ED et al. 2005, Nat Rev Neurosci 6, 151–159",
+      "Olkowicz S et al. 2016, PNAS 113, 7255–7260",
+      "Stacho M et al. 2020, Science 369, eabc5534",
+      "Güntürkün O & Bugnyar T 2016, Trends Cogn Sci 20, 291–303"
+    ]
+  }
+}

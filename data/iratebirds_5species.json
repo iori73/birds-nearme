@@ -1,0 +1,39 @@
+{
+  "source": "iratebirds (Haukka et al. 2023, Scientific Data)",
+  "doi": "10.6084/m9.figshare.20170082.v2",
+  "file": "iratebirds_pred_ratings_species_and_sex_level_120123.csv",
+  "scale": "0-10 visual aesthetic attractiveness, sex-level model",
+  "species": {
+    "azure_winged_magpie": {
+      "ja": "オナガ",
+      "sci_name": "Cyanopica cyanus",
+      "predicted_attractiveness": 6.7193,
+      "sd": 0.07
+    },
+    "large_billed_crow": {
+      "ja": "カラス",
+      "sci_name": "Corvus macrorhynchos",
+      "predicted_attractiveness": 5.9487,
+      "sd": 0.0636
+    },
+    "eurasian_tree_sparrow": {
+      "ja": "スズメ",
+      "sci_name": "Passer montanus",
+      "predicted_attractiveness": 5.7054,
+      "sd": 0.0632
+    },
+    "white_cheeked_starling": {
+      "ja": "ムクドリ",
+      "sci_name": "Spodiopsar cineraceus",
+      "note": "Formerly Sturnus cineraceus; iratebirds uses Spodiopsar (eBird/Clements 2019)",
+      "predicted_attractiveness": 4.9116,
+      "sd": 0.058
+    },
+    "feral_pigeon": {
+      "ja": "ドバト",
+      "sci_name": "Columba livia",
+      "predicted_attractiveness": 4.5617,
+      "sd": 0.0624
+    }
+  }
+}
